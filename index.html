@@ -12,9 +12,10 @@
         <h1>Franz Machado</h1>
         <nav>
             <ul>
+                <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#research">Research Experience</a></li>
-                <li><a href="#awards">Awards & Achievements</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#awards">Awards</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -23,100 +24,116 @@
     </header>
 
     <main>
-        <section id="profile-photo">
+        <section id="about">
             <h2>About Me</h2>
-            <img src="your-photo.jpg" alt="Photo of Franz Machado" class="profile-photo">
-            <p>Welcome to my personal webpage! Here you can learn more about my academic background, research, and professional achievements.</p>
+            <div class="tab-content">
+                <img src="your-photo.jpg" alt="Photo of Franz Machado" class="profile-photo">
+                <p>Welcome to my personal webpage! Here you can learn more about my academic background, research, and professional achievements.</p>
+            </div>
         </section>
 
         <section id="education">
             <h2>Education</h2>
-            <ul>
-                <li><strong>Physics PhD Student</strong> (August 2022 - Present)<br>
-                    Illinois Institute of Technology, Illinois, USA<br>
-                    GPA: 4.0
-                </li>
-                <li><strong>Bachelor of Science in Physics</strong> (March 2016 - August 2021)<br>
-                    Department of Science, Universidad Nacional de Ingeniería, Peru<br>
-                    GPA: 4.0 (Class rank: 1)
-                </li>
-            </ul>
+            <div class="tab-content">
+                <ul>
+                    <li><strong>Physics PhD Student</strong> (August 2022 - Present)<br>
+                        Illinois Institute of Technology, Illinois, USA<br>
+                        GPA: 4.0
+                    </li>
+                    <li><strong>Bachelor of Science in Physics</strong> (March 2016 - August 2021)<br>
+                        Department of Science, Universidad Nacional de Ingeniería, Peru<br>
+                        GPA: 4.0 (Class rank: 1)
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section id="research">
             <h2>Research Experience</h2>
-            <article>
-                <h3>MAD(ish) Test Site Transparency Study</h3>
-                <p><em>Advisor: Dr. Bryce Littlejohn</em> (July 2023 - December 2023)<br>
-                    Department of Physics, Illinois Institute of Technology</p>
-                <p>This study aims to determine experiment parameters for using neutrinos to set limits on fission-derived yield in large explosions. By analyzing factors like distance, yield, and detector size, and using the PROSPECT-CNP toolkit, we predict flux and identify optimal combinations for different scenarios.</p>
-                <img src="madish-study.jpg" alt="Visualization related to MAD(ish) study" class="research-photo">
-            </article>
-            <article>
-                <h3>Data Transfer between LHCb Data Acquisition System and FPGA Accelerators</h3>
-                <p><em>Advisor: Dr. Riccardo Fantechi</em> (June 2021 - September 2021)<br>
-                    LHCb Computational Group, CERN, Switzerland</p>
-                <p>Reviewed the data acquisition system used by the LHCb experiment, performing tests on data transfer between PCIe40, EB, and the RETINA buffer. Developed efficient methods for merging data streams, leveraging characteristics of previous firmware runs.</p>
-                <img src="lhcb-data-transfer.jpg" alt="LHCb data transfer visualization" class="research-photo">
-            </article>
-            <article>
-                <h3>Water Cherenkov Detector Calibration by Detected Muon Signals</h3>
-                <p><em>Advisor: Dr. Cesar Castromonte, Luis Otiniano</em> (October 2020 - March 2021)<br>
-                    Department of Science, Universidad Nacional de Ingeniería, Peru</p>
-                <p>Analyzed experimental data for vertical muons collected in Buenos Aires. Proposed a simulation for PMT response based on these analyses and simulations using CORSIKA and GEANT4.</p>
-                <img src="chernkov-detector.jpg" alt="Cherenkov detector calibration" class="research-photo">
-            </article>
-            <article>
-                <h3>A View through the PICO 40L Cameras</h3>
-                <p><em>Advisor: Dr. Carsten Krauss, Scott Fallows</em> (January 2020 - March 2020)<br>
-                    Department of Science, University of Alberta, Canada</p>
-                <p>Studied camera behavior in the detector to improve trigger efficiency, monitor stability, and identify phenomena for future analysis.</p>
-                <img src="pico40l-camera.jpg" alt="PICO 40L detector visualization" class="research-photo">
-            </article>
+            <div class="tab-content">
+                <article>
+                    <h3>MAD(ish) Test Site Transparency Study</h3>
+                    <p><em>Advisor: Dr. Bryce Littlejohn</em> (July 2023 - December 2023)<br>
+                        Department of Physics, Illinois Institute of Technology</p>
+                    <p>This study aims to determine experiment parameters for using neutrinos to set limits on fission-derived yield in large explosions. By analyzing factors like distance, yield, and detector size, and using the PROSPECT-CNP toolkit, we predict flux and identify optimal combinations for different scenarios.</p>
+                    <img src="madish-study.jpg" alt="Visualization related to MAD(ish) study" class="research-photo">
+                </article>
+                <article>
+                    <h3>Data Transfer between LHCb Data Acquisition System and FPGA Accelerators</h3>
+                    <p><em>Advisor: Dr. Riccardo Fantechi</em> (June 2021 - September 2021)<br>
+                        LHCb Computational Group, CERN, Switzerland</p>
+                    <p>Reviewed the data acquisition system used by the LHCb experiment, performing tests on data transfer between PCIe40, EB, and the RETINA buffer. Developed efficient methods for merging data streams, leveraging characteristics of previous firmware runs.</p>
+                    <img src="lhcb-data-transfer.jpg" alt="LHCb data transfer visualization" class="research-photo">
+                </article>
+                <article>
+                    <h3>Water Cherenkov Detector Calibration by Detected Muon Signals</h3>
+                    <p><em>Advisor: Dr. Cesar Castromonte, Luis Otiniano</em> (October 2020 - March 2021)<br>
+                        Department of Science, Universidad Nacional de Ingeniería, Peru</p>
+                    <p>Analyzed experimental data for vertical muons collected in Buenos Aires. Proposed a simulation for PMT response based on these analyses and simulations using CORSIKA and GEANT4.</p>
+                    <img src="chernkov-detector.jpg" alt="Cherenkov detector calibration" class="research-photo">
+                </article>
+                <article>
+                    <h3>A View through the PICO 40L Cameras</h3>
+                    <p><em>Advisor: Dr. Carsten Krauss, Scott Fallows</em> (January 2020 - March 2020)<br>
+                        Department of Science, University of Alberta, Canada</p>
+                    <p>Studied camera behavior in the detector to improve trigger efficiency, monitor stability, and identify phenomena for future analysis.</p>
+                    <img src="pico40l-camera.jpg" alt="PICO 40L detector visualization" class="research-photo">
+                </article>
+            </div>
         </section>
 
         <section id="awards">
             <h2>Awards & Achievements</h2>
-            <ul>
-                <li><strong>CERN Summer Student Program</strong> (June 2021)<br>
-                    Grant (1500 CHF) to conduct research under the supervision of a CERN member.
-                </li>
-                <li><strong>First Place at the Spring 2020 Student Project Fair</strong> (September 2020)<br>
-                    Awarded by the Faculty of Sciences, National Engineering University.
-                </li>
-                <li><strong>University of Alberta Research Experience (UARE)</strong> (October 2019)<br>
-                    Grant (6000 CAD) to conduct research under the supervision of faculty members.
-                </li>
-            </ul>
+            <div class="tab-content">
+                <ul>
+                    <li><strong>CERN Summer Student Program</strong> (June 2021)<br>
+                        Grant (1500 CHF) to conduct research under the supervision of a CERN member.
+                    </li>
+                    <li><strong>First Place at the Spring 2020 Student Project Fair</strong> (September 2020)<br>
+                        Awarded by the Faculty of Sciences, National Engineering University.
+                    </li>
+                    <li><strong>University of Alberta Research Experience (UARE)</strong> (October 2019)<br>
+                        Grant (6000 CAD) to conduct research under the supervision of faculty members.
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> C++, Python, ROOT, SQL</li>
-                <li><strong>Simulation Tools:</strong> CORSIKA, GEANT4</li>
-                <li><strong>Data Analysis:</strong> PROSPECT-CNP Toolkit, Signal Processing</li>
-                <li><strong>Languages:</strong> Fluent in Spanish and English</li>
-            </ul>
+            <div class="tab-content">
+                <ul>
+                    <li><strong>Programming Languages:</strong> C++, Python, ROOT, SQL</li>
+                    <li><strong>Simulation Tools:</strong> CORSIKA, GEANT4</li>
+                    <li><strong>Data Analysis:</strong> PROSPECT-CNP Toolkit, Signal Processing</li>
+                    <li><strong>Languages:</strong> Fluent in Spanish and English</li>
+                </ul>
+            </div>
         </section>
 
         <section id="publications">
             <h2>Publications</h2>
-            <p><em>No publications listed yet. Check back later!</em></p>
+            <div class="tab-content">
+                <p><em>No publications listed yet. Check back later!</em></p>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p><strong>Phone:</strong> (+1) 872 315 9215</p>
-            <p><strong>Email:</strong> <a href="mailto:fmachado@hawk.iit.edu">fmachado@hawk.iit.edu</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/franz-danylo-machado-perez-40248614a">linkedin.com/in/franz-danylo-machado-perez</a></p>
-            <p><strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Franz-Danylo-Machado">researchgate.net/profile/Franz-Danylo-Machado</a></p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/danylomachado1">github.com/danylomachado1</a></p>
+            <div class="tab-content">
+                <p><strong>Phone:</strong> (+1) 872 315 9215</p>
+                <p><strong>Email:</strong> <a href="mailto:fmachado@hawk.iit.edu">fmachado@hawk.iit.edu</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/franz-danylo-machado-perez-40248614a">linkedin.com/in/franz-danylo-machado-perez</a></p>
+                <p><strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Franz-Danylo-Machado">researchgate.net/profile/Franz-Danylo-Machado</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/danylomachado1">github.com/danylomachado1</a></p>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Franz Machado</p>
     </footer>
+
+    <script src="tabs.js"></script>
 </body>
 </html>
